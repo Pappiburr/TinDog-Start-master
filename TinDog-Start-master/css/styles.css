@@ -69,7 +69,12 @@
     position: relative ;
     padding-left:100px;
     text-align: center;
+    web
 }
+.fa-circle-check:hover {
+ color:#FF0028;
+}
+
 .fa-bullseye{
     color:#ff4c68;
     font-size:3rem;
@@ -77,13 +82,19 @@
     padding-left: 100px;
 
 }
+.fa-bullseye:hover{
+    color:#FF0028;
+}
+
 .fa-heart{
    color: #ff4c68;
    font-size:3rem;
    position:relative;
    padding-left: 100px;
 }
-
+.fa-heart:hover{
+    color:#FF0028;
+}
 
 .easy-use{
     text-align: center;

@@ -5,6 +5,8 @@
 #title{
     background-color: #ff4c68;
     color: #fff;
+    z-index: 0;
+    position:relative
 }
 .h1{
     font-size:3rem; 
@@ -24,11 +26,12 @@
 
 
 }
-.p
-color{#8f8f8f
+.p{
+color:#8f8f8f;
 }
 .container-fluid{
-    padding: 3% 15%
+    padding: 3% 15% 7% ;
+
 }
 .headline-meet{
     font-weight: 900;
@@ -40,6 +43,7 @@ color{#8f8f8f
     font-family:'Montserrat-Bold',sans-serif;
     font-weight:900;
 }
+
 
 /* Navigation Bar */
 .navbar{
@@ -69,8 +73,12 @@ color{#8f8f8f
 
 /* Title image */
 .title-image{
-    width:60%;
+    width:20%;
     transform: rotate(25deg);
+    position:absolute;
+    z-index: 0;
+    right:25%;
+    
 }
 
 /* Features-Icons */
@@ -79,10 +87,14 @@ color{#8f8f8f
 #features{
     padding:7% 15%;
     content: centered;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 .feature-box{
     text-align:center;
     padding:5%;
+    
 }
 
 
@@ -90,28 +102,32 @@ color{#8f8f8f
     color:#ff8172;
     position: relative;
     padding-bottom:5%;
-
+   
     
 }
 .fa-circle-check:hover {
  color:#ff4c68;
+
 }
 
 .fa-bullseye{
     color:#ff8172;
     position:relative;
     padding-bottom:5%;
+   
     
 
 }
 .fa-bullseye:hover{
     color:#ff4c68;
+   
 }
 
 .fa-heart{
    color: #ff8172;
    position:relative;
    padding-bottom:5%;
+   
 
    
 }
@@ -122,6 +138,7 @@ color{#8f8f8f
 .easy-use{
     text-align: center;
     padding-top: 20px;
+    
     
 }
 
@@ -175,3 +192,54 @@ color:grey;
     font-size:3rem;
     color:black;
 }
+
+@media (max-width: 1028px){
+
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
+
+/* Footer Section */
+
+#cta{
+
+    
+    text-align: center;
+    background-color: #ff4c68;
+
+}
+.true-love{
+
+    font-size: 5rem;
+    color:#fff;
+   padding: 70px 100px 50px 100px;
+    margin: 50px;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+
+}
+.download-button-bottom{
+margin: 2% 3% 13% 0%;
+
+
+
+}
+
+.socials{
+
+    margin: 1.5%;
+    padding-bottom:2%;
+    
+}
+
+#footer{
+
+    margin: 7x 10px 2px 10px;
+    padding: 40px;
+    text-align:center;
+    color: grey;
+}
+
